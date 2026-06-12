@@ -23,6 +23,10 @@ terraform.tfvars
 .env
 .env.*
 
+# Claude
+CLAUDE.md
+.claude/
+
 # IDE
 .vscode/
 .idea/
