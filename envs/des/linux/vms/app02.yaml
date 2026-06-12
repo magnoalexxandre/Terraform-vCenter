@@ -1,0 +1,13 @@
+vm_name: DES-LNX-APP02
+cpus: 4
+memory_mb: 8192
+disk_size_gb: 80
+portgroup: VLAN-DES-100
+ip_address: "10.0.1.11"
+netmask: 24
+gateway: "10.0.1.1"
+dns_servers:
+  - "10.0.0.10"
+  - "10.0.0.11"
+resource_pool: CLUSTER-DES/Resources
+folder: DES/Linux

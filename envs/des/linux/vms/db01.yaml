@@ -1,0 +1,17 @@
+vm_name: DES-LNX-DB01
+annotation: PostgreSQL 16
+cpus: 8
+memory_mb: 32768
+disk_size_gb: 100
+portgroup: VLAN-DES-DB-200
+ip_address: "10.0.2.10"
+netmask: 24
+gateway: "10.0.2.1"
+dns_servers:
+  - "10.0.0.10"
+  - "10.0.0.11"
+resource_pool: CLUSTER-DES/Resources
+folder: DES/Linux/Database
+extra_disks:
+  - label: pgdata
+    size_gb: 500

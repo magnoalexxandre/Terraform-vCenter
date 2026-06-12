@@ -1,0 +1,14 @@
+vm_name: DES-WIN-WEB01
+cpus: 4
+memory_mb: 8192
+disk_size_gb: 100
+portgroup: VLAN-DES-100
+ip_address: "10.0.1.20"
+netmask: 24
+gateway: "10.0.1.1"
+dns_servers:
+  - "10.0.0.10"
+  - "10.0.0.11"
+resource_pool: CLUSTER-DES/Resources
+folder: DES/Windows
+admin_password: CHANGE_ME

@@ -1,0 +1,40 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terragrunt
+.terragrunt-cache/
+
+# Secrets — NUNCA versionar
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Imagens de referência
+*.png
+*.jpg
+*.jpeg
